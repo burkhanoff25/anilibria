@@ -94,7 +94,7 @@ export const mockEpisodes = [
     title: "Начало новой главы",
     duration: "24:35",
     release_date: "2026-01-15",
-    preview: "https://cdn.anilibria.tv/storage/releases/episodes/preview1.webp"
+    preview: "https://anilibria.top/storage/releases/episodes/previews/10089/1/preview.webp"
   },
   {
     id: 2,
@@ -102,7 +102,7 @@ export const mockEpisodes = [
     title: "Тайны прошлого",
     duration: "23:48",
     release_date: "2026-01-22",
-    preview: "https://cdn.anilibria.tv/storage/releases/episodes/preview2.webp"
+    preview: "https://anilibria.top/storage/releases/episodes/previews/10089/2/preview.webp"
   },
   {
     id: 3,
@@ -110,17 +110,17 @@ export const mockEpisodes = [
     title: "Поворотный момент",
     duration: "25:31",
     release_date: "2026-01-29",
-    preview: "https://cdn.anilibria.tv/storage/releases/episodes/preview3.webp"
+    preview: "https://anilibria.top/storage/releases/episodes/previews/10089/3/m991meXF6uE40rV9__1d670541cc4ca8da534c0c08a018a422.webp"
   }
 ];
 
 export const mockGenres = [
-  { id: 1, name: "Сёнен", count: 308, image: "https://cdn.anilibria.tv/storage/anime/genres/images/4/genre.webp" },
-  { id: 2, name: "Романтика", count: 445, image: "https://cdn.anilibria.tv/storage/anime/genres/images/11/genre.webp" },
-  { id: 3, name: "Меха", count: 56, image: "https://cdn.anilibria.tv/storage/anime/genres/images/2/genre.webp" },
-  { id: 4, name: "Вампиры", count: 46, image: "https://cdn.anilibria.tv/storage/anime/genres/images/24/genre.webp" },
-  { id: 5, name: "Сверхъестественное", count: 296, image: "https://cdn.anilibria.tv/storage/anime/genres/images/28/genre.webp" },
-  { id: 6, name: "Боевые искусства", count: 21, image: "https://cdn.anilibria.tv/storage/anime/genres/images/15/genre.webp" }
+  { id: 1, name: "Сёнен", count: 308, image: "https://anilibria.top/storage/anime/genres/images/4/f1t40ahbG7mzcmZfhxlVdkC0DtY2vOQ9.webp" },
+  { id: 2, name: "Романтика", count: 445, image: "https://anilibria.top/storage/anime/genres/images/11/4hYmrD37aIKEiQcHr48fiKPe8PaW01uk.webp" },
+  { id: 3, name: "Меха", count: 56, image: "https://anilibria.top/storage/anime/genres/images/2/genre.webp" },
+  { id: 4, name: "Вампиры", count: 46, image: "https://anilibria.top/storage/anime/genres/images/24/genre.webp" },
+  { id: 5, name: "Сверхъестественное", count: 296, image: "https://anilibria.top/storage/anime/genres/images/28/genre.webp" },
+  { id: 6, name: "Боевые искусства", count: 21, image: "https://anilibria.top/storage/anime/genres/images/15/genre.webp" }
 ];
 
 export const mockFranchises = [
@@ -132,7 +132,7 @@ export const mockFranchises = [
     seasons: 2,
     episodes: 24,
     duration: "9 часов 43 минуты",
-    image: "https://cdn.anilibria.tv/storage/anime/franchises/images/franchise1.webp"
+    image: "https://anilibria.top/storage/anime/franchises/images/franchise1.webp"
   },
   {
     id: 2,
@@ -142,7 +142,7 @@ export const mockFranchises = [
     seasons: 2,
     episodes: 25,
     duration: "9 часов 53 минуты",
-    image: "https://cdn.anilibria.tv/storage/anime/franchises/images/franchise2.webp"
+    image: "https://anilibria.top/storage/anime/franchises/images/franchise2.webp"
   },
   {
     id: 3,
@@ -152,7 +152,7 @@ export const mockFranchises = [
     seasons: 4,
     episodes: 18,
     duration: "7 часов",
-    image: "https://cdn.anilibria.tv/storage/anime/franchises/images/franchise3.webp"
+    image: "https://anilibria.top/storage/anime/franchises/images/franchise3.webp"
   }
 ];
 
@@ -163,7 +163,7 @@ export const mockVideos = [
     author: "Люпин",
     views: 0,
     likes: 0,
-    preview: "https://cdn.anilibria.tv/storage/media/videos/previews/video1.webp"
+    preview: "https://anilibria.top/storage/media/videos/previews/video1.webp"
   },
   {
     id: 2,
@@ -171,7 +171,7 @@ export const mockVideos = [
     author: "Либриечка Сильв",
     views: 1772,
     likes: 30,
-    preview: "https://cdn.anilibria.tv/storage/media/videos/previews/video2.webp"
+    preview: "https://anilibria.top/storage/media/videos/previews/video2.webp"
   },
   {
     id: 3,
@@ -179,7 +179,7 @@ export const mockVideos = [
     author: "AniLiberty",
     views: 1024,
     likes: 19,
-    preview: "https://cdn.anilibria.tv/storage/media/videos/previews/video3.webp"
+    preview: "https://anilibria.top/storage/media/videos/previews/video3.webp"
   },
   {
     id: 4,
@@ -187,7 +187,7 @@ export const mockVideos = [
     author: "Sharon [AniLibria.TV]",
     views: 161649,
     likes: 1171,
-    preview: "https://cdn.anilibria.tv/storage/media/videos/previews/video4.webp"
+    preview: "https://anilibria.top/storage/media/videos/previews/video4.webp"
   }
 ];
 
@@ -251,7 +251,7 @@ export const mockSchedule = {
       title: "Звёздное дитя 3",
       episode: 2,
       duration: "24:35",
-      poster: "https://cdn.anilibria.tv/storage/releases/posters/10100/poster.webp"
+      poster: "https://anilibria.top/storage/releases/posters/10089/PKg3Ru0WTMgTSSXhIpJICXjdE5DNvvLE.webp"
     }
   ],
   today: [
@@ -260,14 +260,14 @@ export const mockSchedule = {
       title: "Звёздное дитя 3",
       episode: 3,
       duration: "25:31",
-      poster: "https://cdn.anilibria.tv/storage/releases/posters/10100/poster.webp"
+      poster: "https://anilibria.top/storage/releases/posters/10089/PKg3Ru0WTMgTSSXhIpJICXjdE5DNvvLE.webp"
     },
     {
       id: 2,
       title: "Какой сейчас Тамон?!",
       episode: 5,
       duration: "23:40",
-      poster: "https://cdn.anilibria.tv/storage/releases/posters/10104/poster.webp"
+      poster: "https://anilibria.top/storage/releases/posters/10104/y8HvWLLIoObzdveAXRm3tyUy0RMsFtq2.webp"
     }
   ],
   tomorrow: [
@@ -276,7 +276,7 @@ export const mockSchedule = {
       title: "Золотое божество: Финал",
       episode: 5,
       duration: "24:12",
-      poster: "https://cdn.anilibria.tv/storage/releases/posters/10101/poster.webp"
+      poster: "https://anilibria.top/storage/releases/posters/10101/sw12FMAEHueKiQUdcGZYy7hUquAybwPY.webp"
     }
   ]
 };
