@@ -1,4 +1,4 @@
-from fastapi import FastAPI, APIRouter
+from fastapi import FastAPI, APIRouter, Query, HTTPException
 from dotenv import load_dotenv
 from starlette.middleware.cors import CORSMiddleware
 from motor.motor_asyncio import AsyncIOMotorClient
@@ -6,9 +6,10 @@ import os
 import logging
 from pathlib import Path
 from pydantic import BaseModel, Field, ConfigDict
-from typing import List
+from typing import List, Optional
 import uuid
 from datetime import datetime, timezone
+from anilibria_service import anilibria_service
 
 
 ROOT_DIR = Path(__file__).parent
@@ -65,6 +66,125 @@ async def get_status_checks():
             check['timestamp'] = datetime.fromisoformat(check['timestamp'])
     
     return status_checks
+
+# AniLibria API Routes
+
+@api_router.get("/anilibria/releases/latest")
+async def get_latest_releases(
+    limit: int = Query(12, ge=1, le=50),
+    offset: int = Query(0, ge=0)
+):
+    """Get latest anime releases"""
+    try:
+        return await anilibria_service.get_latest_releases(limit=limit, offset=offset)
+    except Exception as e:
+        logger.error(f"Error fetching latest releases: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@api_router.get("/anilibria/releases/{release_id}")
+async def get_release(release_id: int):
+    """Get release by ID"""
+    try:
+        return await anilibria_service.get_release_by_id(release_id)
+    except Exception as e:
+        logger.error(f"Error fetching release {release_id}: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@api_router.get("/anilibria/releases/alias/{alias}")
+async def get_release_by_alias(alias: str):
+    """Get release by alias"""
+    try:
+        return await anilibria_service.get_release_by_alias(alias)
+    except Exception as e:
+        logger.error(f"Error fetching release by alias {alias}: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@api_router.get("/anilibria/releases/{release_id}/episodes")
+async def get_episodes(release_id: int):
+    """Get episodes for a release"""
+    try:
+        return await anilibria_service.get_episodes(release_id)
+    except Exception as e:
+        logger.error(f"Error fetching episodes for release {release_id}: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@api_router.get("/anilibria/search")
+async def search_releases(
+    query: Optional[str] = Query(None),
+    genres: Optional[str] = Query(None),
+    year: Optional[int] = Query(None),
+    season: Optional[str] = Query(None),
+    limit: int = Query(12, ge=1, le=50),
+    offset: int = Query(0, ge=0)
+):
+    """Search anime releases"""
+    try:
+        genre_list = [int(g) for g in genres.split(",")] if genres else None
+        return await anilibria_service.search_releases(
+            query=query,
+            genres=genre_list,
+            year=year,
+            season=season,
+            limit=limit,
+            offset=offset
+        )
+    except Exception as e:
+        logger.error(f"Error searching releases: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@api_router.get("/anilibria/schedule")
+async def get_schedule():
+    """Get release schedule"""
+    try:
+        return await anilibria_service.get_schedule()
+    except Exception as e:
+        logger.error(f"Error fetching schedule: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@api_router.get("/anilibria/genres")
+async def get_genres():
+    """Get all genres"""
+    try:
+        return await anilibria_service.get_genres()
+    except Exception as e:
+        logger.error(f"Error fetching genres: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@api_router.get("/anilibria/franchises")
+async def get_franchises(
+    limit: int = Query(12, ge=1, le=50),
+    offset: int = Query(0, ge=0)
+):
+    """Get franchises"""
+    try:
+        return await anilibria_service.get_franchises(limit=limit, offset=offset)
+    except Exception as e:
+        logger.error(f"Error fetching franchises: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@api_router.get("/anilibria/torrents")
+async def get_torrents(
+    limit: int = Query(20, ge=1, le=50),
+    offset: int = Query(0, ge=0)
+):
+    """Get latest torrents"""
+    try:
+        return await anilibria_service.get_torrents(limit=limit, offset=offset)
+    except Exception as e:
+        logger.error(f"Error fetching torrents: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@api_router.get("/anilibria/videos")
+async def get_videos(
+    limit: int = Query(12, ge=1, le=50),
+    offset: int = Query(0, ge=0)
+):
+    """Get latest videos"""
+    try:
+        return await anilibria_service.get_videos(limit=limit, offset=offset)
+    except Exception as e:
+        logger.error(f"Error fetching videos: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
 
 # Include the router in the main app
 app.include_router(api_router)
