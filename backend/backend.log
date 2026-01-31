@@ -1,0 +1,470 @@
+INFO:     Will watch for changes in these directories: ['/Users/burkhanoff/Desktop/ani/anilibria/backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [8847] using StatReload
+2026-01-31 08:57:04,802 - server - INFO - ✅ MongoDB connected
+2026-01-31 08:57:04,803 - server - INFO - ✅ Mounted genre images directory: /Users/burkhanoff/Desktop/ani/anilibria/public/genre-images
+INFO:     Started server process [8901]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2026-01-31 08:57:26,331 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 50, 'offset': 0}
+2026-01-31 08:57:27,284 - anilibria_service - INFO - ✅ AniLibria API success: 50 item(s)
+2026-01-31 08:57:27,284 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 50, 'offset': 50}
+2026-01-31 08:57:27,718 - anilibria_service - INFO - ✅ AniLibria API success: 50 item(s)
+2026-01-31 08:57:27,719 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 50, 'offset': 100}
+2026-01-31 08:57:28,224 - anilibria_service - INFO - ✅ AniLibria API success: 50 item(s)
+2026-01-31 08:57:28,225 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 50, 'offset': 150}
+2026-01-31 08:57:28,632 - anilibria_service - INFO - ✅ AniLibria API success: 50 item(s)
+2026-01-31 08:57:28,632 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 50, 'offset': 200}
+2026-01-31 08:57:28,668 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 50, 'offset': 0}
+2026-01-31 08:57:29,033 - anilibria_service - INFO - ✅ AniLibria API success: 50 item(s)
+2026-01-31 08:57:29,289 - anilibria_service - INFO - ✅ AniLibria API success: 50 item(s)
+2026-01-31 08:57:29,289 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 50, 'offset': 50}
+2026-01-31 08:57:29,440 - anilibria_service - INFO - ✅ AniLibria API success: 50 item(s)
+2026-01-31 08:57:29,440 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 50, 'offset': 100}
+2026-01-31 08:57:29,627 - anilibria_service - INFO - ✅ AniLibria API success: 50 item(s)
+2026-01-31 08:57:29,627 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 50, 'offset': 150}
+2026-01-31 08:57:29,778 - anilibria_service - INFO - ✅ AniLibria API success: 50 item(s)
+2026-01-31 08:57:29,791 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 50, 'offset': 200}
+2026-01-31 08:57:29,950 - anilibria_service - INFO - ✅ AniLibria API success: 50 item(s)
+INFO:     127.0.0.1:51831 - "GET /api/anilibria/schedule HTTP/1.1" 200 OK
+2026-01-31 09:01:02,031 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 12, 'offset': 0}
+2026-01-31 09:01:02,037 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/franchises with params: {'limit': 12, 'offset': 0}
+2026-01-31 09:01:02,040 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/torrents with params: {'limit': 8, 'offset': 0}
+2026-01-31 09:01:02,550 - anilibria_service - INFO - ✅ AniLibria API success: single item(s)
+INFO:     127.0.0.1:52472 - "GET /api/anilibria/torrents?limit=8&offset=0 HTTP/1.1" 200 OK
+2026-01-31 09:01:02,559 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/torrents with params: {'limit': 8, 'offset': 0}
+2026-01-31 09:01:02,610 - anilibria_service - INFO - ✅ AniLibria API success: 12 item(s)
+INFO:     127.0.0.1:52466 - "GET /api/anilibria/releases/latest?limit=12&offset=0 HTTP/1.1" 200 OK
+2026-01-31 09:01:02,621 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 12, 'offset': 0}
+2026-01-31 09:01:02,647 - anilibria_service - INFO - ✅ Using custom image for genre 'Боевые искусства': martial-arts.webp
+2026-01-31 09:01:02,647 - anilibria_service - INFO - ✅ Using custom image for genre 'Вампиры': vampires.webp
+2026-01-31 09:01:02,647 - anilibria_service - INFO - ✅ Using custom image for genre 'Гарем': harem.webp
+2026-01-31 09:01:02,647 - anilibria_service - INFO - ✅ Using custom image for genre 'Демоны': demons.webp
+2026-01-31 09:01:02,647 - anilibria_service - INFO - ✅ Using custom image for genre 'Детектив': detective.webp
+2026-01-31 09:01:02,648 - anilibria_service - INFO - ✅ Using custom image for genre 'Дзёсей': josei.webp
+2026-01-31 09:01:02,648 - anilibria_service - INFO - ✅ Using custom image for genre 'Драма': drama.webp
+2026-01-31 09:01:02,648 - anilibria_service - INFO - ✅ Using custom image for genre 'Игры': games.webp
+2026-01-31 09:01:02,648 - anilibria_service - INFO - ✅ Using custom image for genre 'Исекай': isekai.webp
+2026-01-31 09:01:02,648 - anilibria_service - INFO - ✅ Using custom image for genre 'Исторический': historical.webp
+2026-01-31 09:01:02,648 - anilibria_service - INFO - ✅ Using custom image for genre 'Киберпанк': cyberpunk.webp
+2026-01-31 09:01:02,648 - anilibria_service - INFO - ✅ Using custom image for genre 'Комедия': comedy.webp
+2026-01-31 09:01:02,649 - anilibria_service - INFO - ✅ Using custom image for genre 'Магия': magic.webp
+2026-01-31 09:01:02,649 - anilibria_service - INFO - ✅ Using custom image for genre 'Меха': mecha.webp
+2026-01-31 09:01:02,649 - anilibria_service - INFO - ✅ Using custom image for genre 'Мистика': mystery.webp
+2026-01-31 09:01:02,649 - anilibria_service - INFO - ✅ Using custom image for genre 'Музыка': music.webp
+2026-01-31 09:01:02,649 - anilibria_service - INFO - ✅ Using custom image for genre 'Пародия': parody.webp
+2026-01-31 09:01:02,649 - anilibria_service - INFO - ✅ Using custom image for genre 'Повседневность': slice-of-life.webp
+2026-01-31 09:01:02,649 - anilibria_service - INFO - ✅ Using custom image for genre 'Приключения': adventure.webp
+2026-01-31 09:01:02,649 - anilibria_service - INFO - ✅ Using custom image for genre 'Психологическое': psychological.webp
+2026-01-31 09:01:02,649 - anilibria_service - INFO - ✅ Using custom image for genre 'Романтика': romance.webp
+2026-01-31 09:01:02,649 - anilibria_service - INFO - ✅ Using custom image for genre 'Сверхъестественное': supernatural.webp
+2026-01-31 09:01:02,650 - anilibria_service - INFO - ✅ Using custom image for genre 'Сёдзе': shoujo.webp
+2026-01-31 09:01:02,650 - anilibria_service - INFO - ✅ Using custom image for genre 'Сёдзе-ай': shoujo-ai.webp
+2026-01-31 09:01:02,650 - anilibria_service - INFO - ✅ Using custom image for genre 'Сейнен': seinen.webp
+2026-01-31 09:01:02,650 - anilibria_service - INFO - ✅ Using custom image for genre 'Сёнен': shonen.webp
+2026-01-31 09:01:02,650 - anilibria_service - INFO - ✅ Using custom image for genre 'Спорт': sports.webp
+2026-01-31 09:01:02,650 - anilibria_service - INFO - ✅ Using custom image for genre 'Супер сила': superpower.webp
+2026-01-31 09:01:02,650 - anilibria_service - INFO - ✅ Using custom image for genre 'Триллер': thriller.webp
+2026-01-31 09:01:02,651 - anilibria_service - INFO - ✅ Using custom image for genre 'Ужасы': horror.webp
+2026-01-31 09:01:02,651 - anilibria_service - INFO - ✅ Using custom image for genre 'Фантастика': sci-fi.webp
+2026-01-31 09:01:02,651 - anilibria_service - INFO - ✅ Using custom image for genre 'Фэнтези': fantasy.webp
+2026-01-31 09:01:02,651 - anilibria_service - INFO - ✅ Using custom image for genre 'Школа': school.webp
+2026-01-31 09:01:02,651 - anilibria_service - INFO - ✅ Using custom image for genre 'Экшен': action.webp
+2026-01-31 09:01:02,651 - anilibria_service - INFO - ✅ Using custom image for genre 'Этти': ecchi.webp
+INFO:     127.0.0.1:52470 - "GET /api/anilibria/genres HTTP/1.1" 200 OK
+2026-01-31 09:01:02,698 - anilibria_service - INFO - ✅ AniLibria API success: 254 item(s)
+INFO:     127.0.0.1:52468 - "GET /api/anilibria/franchises?limit=12&offset=0 HTTP/1.1" 200 OK
+2026-01-31 09:01:02,725 - anilibria_service - INFO - ✅ AniLibria API success: single item(s)
+INFO:     127.0.0.1:52472 - "GET /api/anilibria/torrents?limit=8&offset=0 HTTP/1.1" 200 OK
+2026-01-31 09:01:02,731 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/franchises with params: {'limit': 12, 'offset': 0}
+2026-01-31 09:01:02,739 - anilibria_service - INFO - ✅ AniLibria API success: 12 item(s)
+INFO:     127.0.0.1:52496 - "GET /api/anilibria/releases/latest?limit=12&offset=0 HTTP/1.1" 200 OK
+2026-01-31 09:01:02,866 - anilibria_service - INFO - ✅ AniLibria API success: 254 item(s)
+INFO:     127.0.0.1:52470 - "GET /api/anilibria/franchises?limit=12&offset=0 HTTP/1.1" 200 OK
+2026-01-31 09:01:02,889 - anilibria_service - INFO - ✅ Using custom image for genre 'Боевые искусства': martial-arts.webp
+2026-01-31 09:01:02,889 - anilibria_service - INFO - ✅ Using custom image for genre 'Вампиры': vampires.webp
+2026-01-31 09:01:02,889 - anilibria_service - INFO - ✅ Using custom image for genre 'Гарем': harem.webp
+2026-01-31 09:01:02,889 - anilibria_service - INFO - ✅ Using custom image for genre 'Демоны': demons.webp
+2026-01-31 09:01:02,890 - anilibria_service - INFO - ✅ Using custom image for genre 'Детектив': detective.webp
+2026-01-31 09:01:02,890 - anilibria_service - INFO - ✅ Using custom image for genre 'Дзёсей': josei.webp
+2026-01-31 09:01:02,890 - anilibria_service - INFO - ✅ Using custom image for genre 'Драма': drama.webp
+2026-01-31 09:01:02,890 - anilibria_service - INFO - ✅ Using custom image for genre 'Игры': games.webp
+2026-01-31 09:01:02,890 - anilibria_service - INFO - ✅ Using custom image for genre 'Исекай': isekai.webp
+2026-01-31 09:01:02,890 - anilibria_service - INFO - ✅ Using custom image for genre 'Исторический': historical.webp
+2026-01-31 09:01:02,890 - anilibria_service - INFO - ✅ Using custom image for genre 'Киберпанк': cyberpunk.webp
+2026-01-31 09:01:02,890 - anilibria_service - INFO - ✅ Using custom image for genre 'Комедия': comedy.webp
+2026-01-31 09:01:02,890 - anilibria_service - INFO - ✅ Using custom image for genre 'Магия': magic.webp
+2026-01-31 09:01:02,890 - anilibria_service - INFO - ✅ Using custom image for genre 'Меха': mecha.webp
+2026-01-31 09:01:02,891 - anilibria_service - INFO - ✅ Using custom image for genre 'Мистика': mystery.webp
+2026-01-31 09:01:02,891 - anilibria_service - INFO - ✅ Using custom image for genre 'Музыка': music.webp
+2026-01-31 09:01:02,891 - anilibria_service - INFO - ✅ Using custom image for genre 'Пародия': parody.webp
+2026-01-31 09:01:02,891 - anilibria_service - INFO - ✅ Using custom image for genre 'Повседневность': slice-of-life.webp
+2026-01-31 09:01:02,891 - anilibria_service - INFO - ✅ Using custom image for genre 'Приключения': adventure.webp
+2026-01-31 09:01:02,891 - anilibria_service - INFO - ✅ Using custom image for genre 'Психологическое': psychological.webp
+2026-01-31 09:01:02,891 - anilibria_service - INFO - ✅ Using custom image for genre 'Романтика': romance.webp
+2026-01-31 09:01:02,891 - anilibria_service - INFO - ✅ Using custom image for genre 'Сверхъестественное': supernatural.webp
+2026-01-31 09:01:02,891 - anilibria_service - INFO - ✅ Using custom image for genre 'Сёдзе': shoujo.webp
+2026-01-31 09:01:02,891 - anilibria_service - INFO - ✅ Using custom image for genre 'Сёдзе-ай': shoujo-ai.webp
+2026-01-31 09:01:02,892 - anilibria_service - INFO - ✅ Using custom image for genre 'Сейнен': seinen.webp
+2026-01-31 09:01:02,892 - anilibria_service - INFO - ✅ Using custom image for genre 'Сёнен': shonen.webp
+2026-01-31 09:01:02,892 - anilibria_service - INFO - ✅ Using custom image for genre 'Спорт': sports.webp
+2026-01-31 09:01:02,892 - anilibria_service - INFO - ✅ Using custom image for genre 'Супер сила': superpower.webp
+2026-01-31 09:01:02,892 - anilibria_service - INFO - ✅ Using custom image for genre 'Триллер': thriller.webp
+2026-01-31 09:01:02,892 - anilibria_service - INFO - ✅ Using custom image for genre 'Ужасы': horror.webp
+2026-01-31 09:01:02,892 - anilibria_service - INFO - ✅ Using custom image for genre 'Фантастика': sci-fi.webp
+2026-01-31 09:01:02,892 - anilibria_service - INFO - ✅ Using custom image for genre 'Фэнтези': fantasy.webp
+2026-01-31 09:01:02,892 - anilibria_service - INFO - ✅ Using custom image for genre 'Школа': school.webp
+2026-01-31 09:01:02,892 - anilibria_service - INFO - ✅ Using custom image for genre 'Экшен': action.webp
+2026-01-31 09:01:02,892 - anilibria_service - INFO - ✅ Using custom image for genre 'Этти': ecchi.webp
+INFO:     127.0.0.1:52466 - "GET /api/anilibria/genres HTTP/1.1" 200 OK
+2026-01-31 09:02:51,795 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 50, 'offset': 0}
+2026-01-31 09:02:52,656 - anilibria_service - INFO - ✅ AniLibria API success: 50 item(s)
+2026-01-31 09:02:52,656 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 50, 'offset': 50}
+2026-01-31 09:02:53,080 - anilibria_service - INFO - ✅ AniLibria API success: 50 item(s)
+2026-01-31 09:02:53,080 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 50, 'offset': 100}
+2026-01-31 09:02:53,489 - anilibria_service - INFO - ✅ AniLibria API success: 50 item(s)
+2026-01-31 09:02:53,489 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 50, 'offset': 150}
+2026-01-31 09:02:53,907 - anilibria_service - INFO - ✅ AniLibria API success: 50 item(s)
+2026-01-31 09:02:53,908 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 50, 'offset': 200}
+2026-01-31 09:02:54,343 - anilibria_service - INFO - ✅ AniLibria API success: 50 item(s)
+INFO:     127.0.0.1:52805 - "GET /api/anilibria/schedule HTTP/1.1" 200 OK
+2026-01-31 09:02:54,477 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 50, 'offset': 0}
+2026-01-31 09:02:54,637 - anilibria_service - INFO - ✅ AniLibria API success: 50 item(s)
+2026-01-31 09:02:54,638 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 50, 'offset': 50}
+2026-01-31 09:02:54,797 - anilibria_service - INFO - ✅ AniLibria API success: 50 item(s)
+2026-01-31 09:02:54,797 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 50, 'offset': 100}
+2026-01-31 09:02:54,959 - anilibria_service - INFO - ✅ AniLibria API success: 50 item(s)
+2026-01-31 09:02:54,960 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 50, 'offset': 150}
+2026-01-31 09:02:55,122 - anilibria_service - INFO - ✅ AniLibria API success: 50 item(s)
+2026-01-31 09:02:55,122 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 50, 'offset': 200}
+2026-01-31 09:02:55,280 - anilibria_service - INFO - ✅ AniLibria API success: 50 item(s)
+INFO:     127.0.0.1:52810 - "GET /api/anilibria/schedule HTTP/1.1" 200 OK
+2026-01-31 09:05:38,037 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 12, 'offset': 0}
+2026-01-31 09:05:38,039 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/franchises with params: {'limit': 12, 'offset': 0}
+2026-01-31 09:05:38,041 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/torrents with params: {'limit': 8, 'offset': 0}
+2026-01-31 09:05:38,621 - anilibria_service - INFO - ✅ Using custom image for genre 'Боевые искусства': martial-arts.webp
+2026-01-31 09:05:38,621 - anilibria_service - INFO - ✅ Using custom image for genre 'Вампиры': vampires.webp
+2026-01-31 09:05:38,622 - anilibria_service - INFO - ✅ Using custom image for genre 'Гарем': harem.webp
+2026-01-31 09:05:38,622 - anilibria_service - INFO - ✅ Using custom image for genre 'Демоны': demons.webp
+2026-01-31 09:05:38,622 - anilibria_service - INFO - ✅ Using custom image for genre 'Детектив': detective.webp
+2026-01-31 09:05:38,622 - anilibria_service - INFO - ✅ Using custom image for genre 'Дзёсей': josei.webp
+2026-01-31 09:05:38,622 - anilibria_service - INFO - ✅ Using custom image for genre 'Драма': drama.webp
+2026-01-31 09:05:38,622 - anilibria_service - INFO - ✅ Using custom image for genre 'Игры': games.webp
+2026-01-31 09:05:38,622 - anilibria_service - INFO - ✅ Using custom image for genre 'Исекай': isekai.webp
+2026-01-31 09:05:38,622 - anilibria_service - INFO - ✅ Using custom image for genre 'Исторический': historical.webp
+2026-01-31 09:05:38,622 - anilibria_service - INFO - ✅ Using custom image for genre 'Киберпанк': cyberpunk.webp
+2026-01-31 09:05:38,622 - anilibria_service - INFO - ✅ Using custom image for genre 'Комедия': comedy.webp
+2026-01-31 09:05:38,622 - anilibria_service - INFO - ✅ Using custom image for genre 'Магия': magic.webp
+2026-01-31 09:05:38,623 - anilibria_service - INFO - ✅ Using custom image for genre 'Меха': mecha.webp
+2026-01-31 09:05:38,623 - anilibria_service - INFO - ✅ Using custom image for genre 'Мистика': mystery.webp
+2026-01-31 09:05:38,623 - anilibria_service - INFO - ✅ Using custom image for genre 'Музыка': music.webp
+2026-01-31 09:05:38,623 - anilibria_service - INFO - ✅ Using custom image for genre 'Пародия': parody.webp
+2026-01-31 09:05:38,623 - anilibria_service - INFO - ✅ Using custom image for genre 'Повседневность': slice-of-life.webp
+2026-01-31 09:05:38,623 - anilibria_service - INFO - ✅ Using custom image for genre 'Приключения': adventure.webp
+2026-01-31 09:05:38,623 - anilibria_service - INFO - ✅ Using custom image for genre 'Психологическое': psychological.webp
+2026-01-31 09:05:38,623 - anilibria_service - INFO - ✅ Using custom image for genre 'Романтика': romance.webp
+2026-01-31 09:05:38,623 - anilibria_service - INFO - ✅ Using custom image for genre 'Сверхъестественное': supernatural.webp
+2026-01-31 09:05:38,623 - anilibria_service - INFO - ✅ Using custom image for genre 'Сёдзе': shoujo.webp
+2026-01-31 09:05:38,623 - anilibria_service - INFO - ✅ Using custom image for genre 'Сёдзе-ай': shoujo-ai.webp
+2026-01-31 09:05:38,624 - anilibria_service - INFO - ✅ Using custom image for genre 'Сейнен': seinen.webp
+2026-01-31 09:05:38,624 - anilibria_service - INFO - ✅ Using custom image for genre 'Сёнен': shonen.webp
+2026-01-31 09:05:38,624 - anilibria_service - INFO - ✅ Using custom image for genre 'Спорт': sports.webp
+2026-01-31 09:05:38,624 - anilibria_service - INFO - ✅ Using custom image for genre 'Супер сила': superpower.webp
+2026-01-31 09:05:38,624 - anilibria_service - INFO - ✅ Using custom image for genre 'Триллер': thriller.webp
+2026-01-31 09:05:38,624 - anilibria_service - INFO - ✅ Using custom image for genre 'Ужасы': horror.webp
+2026-01-31 09:05:38,624 - anilibria_service - INFO - ✅ Using custom image for genre 'Фантастика': sci-fi.webp
+2026-01-31 09:05:38,624 - anilibria_service - INFO - ✅ Using custom image for genre 'Фэнтези': fantasy.webp
+2026-01-31 09:05:38,624 - anilibria_service - INFO - ✅ Using custom image for genre 'Школа': school.webp
+2026-01-31 09:05:38,624 - anilibria_service - INFO - ✅ Using custom image for genre 'Экшен': action.webp
+2026-01-31 09:05:38,624 - anilibria_service - INFO - ✅ Using custom image for genre 'Этти': ecchi.webp
+INFO:     127.0.0.1:52878 - "GET /api/anilibria/genres HTTP/1.1" 200 OK
+2026-01-31 09:05:38,636 - anilibria_service - INFO - ✅ AniLibria API success: single item(s)
+INFO:     127.0.0.1:52880 - "GET /api/anilibria/torrents?limit=8&offset=0 HTTP/1.1" 200 OK
+2026-01-31 09:05:38,641 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/torrents with params: {'limit': 8, 'offset': 0}
+2026-01-31 09:05:38,677 - anilibria_service - INFO - ✅ AniLibria API success: 12 item(s)
+INFO:     127.0.0.1:52874 - "GET /api/anilibria/releases/latest?limit=12&offset=0 HTTP/1.1" 200 OK
+2026-01-31 09:05:38,687 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 12, 'offset': 0}
+2026-01-31 09:05:38,737 - anilibria_service - INFO - ✅ AniLibria API success: single item(s)
+INFO:     127.0.0.1:52880 - "GET /api/anilibria/torrents?limit=8&offset=0 HTTP/1.1" 200 OK
+2026-01-31 09:05:38,745 - anilibria_service - INFO - ✅ AniLibria API success: 254 item(s)
+INFO:     127.0.0.1:52876 - "GET /api/anilibria/franchises?limit=12&offset=0 HTTP/1.1" 200 OK
+2026-01-31 09:05:38,772 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/franchises with params: {'limit': 12, 'offset': 0}
+2026-01-31 09:05:38,804 - anilibria_service - INFO - ✅ AniLibria API success: 12 item(s)
+INFO:     127.0.0.1:52899 - "GET /api/anilibria/releases/latest?limit=12&offset=0 HTTP/1.1" 200 OK
+2026-01-31 09:05:38,840 - anilibria_service - INFO - ✅ Using custom image for genre 'Боевые искусства': martial-arts.webp
+2026-01-31 09:05:38,840 - anilibria_service - INFO - ✅ Using custom image for genre 'Вампиры': vampires.webp
+2026-01-31 09:05:38,841 - anilibria_service - INFO - ✅ Using custom image for genre 'Гарем': harem.webp
+2026-01-31 09:05:38,841 - anilibria_service - INFO - ✅ Using custom image for genre 'Демоны': demons.webp
+2026-01-31 09:05:38,841 - anilibria_service - INFO - ✅ Using custom image for genre 'Детектив': detective.webp
+2026-01-31 09:05:38,841 - anilibria_service - INFO - ✅ Using custom image for genre 'Дзёсей': josei.webp
+2026-01-31 09:05:38,841 - anilibria_service - INFO - ✅ Using custom image for genre 'Драма': drama.webp
+2026-01-31 09:05:38,841 - anilibria_service - INFO - ✅ Using custom image for genre 'Игры': games.webp
+2026-01-31 09:05:38,841 - anilibria_service - INFO - ✅ Using custom image for genre 'Исекай': isekai.webp
+2026-01-31 09:05:38,841 - anilibria_service - INFO - ✅ Using custom image for genre 'Исторический': historical.webp
+2026-01-31 09:05:38,841 - anilibria_service - INFO - ✅ Using custom image for genre 'Киберпанк': cyberpunk.webp
+2026-01-31 09:05:38,841 - anilibria_service - INFO - ✅ Using custom image for genre 'Комедия': comedy.webp
+2026-01-31 09:05:38,842 - anilibria_service - INFO - ✅ Using custom image for genre 'Магия': magic.webp
+2026-01-31 09:05:38,842 - anilibria_service - INFO - ✅ Using custom image for genre 'Меха': mecha.webp
+2026-01-31 09:05:38,842 - anilibria_service - INFO - ✅ Using custom image for genre 'Мистика': mystery.webp
+2026-01-31 09:05:38,842 - anilibria_service - INFO - ✅ Using custom image for genre 'Музыка': music.webp
+2026-01-31 09:05:38,842 - anilibria_service - INFO - ✅ Using custom image for genre 'Пародия': parody.webp
+2026-01-31 09:05:38,842 - anilibria_service - INFO - ✅ Using custom image for genre 'Повседневность': slice-of-life.webp
+2026-01-31 09:05:38,842 - anilibria_service - INFO - ✅ Using custom image for genre 'Приключения': adventure.webp
+2026-01-31 09:05:38,842 - anilibria_service - INFO - ✅ Using custom image for genre 'Психологическое': psychological.webp
+2026-01-31 09:05:38,842 - anilibria_service - INFO - ✅ Using custom image for genre 'Романтика': romance.webp
+2026-01-31 09:05:38,842 - anilibria_service - INFO - ✅ Using custom image for genre 'Сверхъестественное': supernatural.webp
+2026-01-31 09:05:38,842 - anilibria_service - INFO - ✅ Using custom image for genre 'Сёдзе': shoujo.webp
+2026-01-31 09:05:38,843 - anilibria_service - INFO - ✅ Using custom image for genre 'Сёдзе-ай': shoujo-ai.webp
+2026-01-31 09:05:38,843 - anilibria_service - INFO - ✅ Using custom image for genre 'Сейнен': seinen.webp
+2026-01-31 09:05:38,843 - anilibria_service - INFO - ✅ Using custom image for genre 'Сёнен': shonen.webp
+2026-01-31 09:05:38,843 - anilibria_service - INFO - ✅ Using custom image for genre 'Спорт': sports.webp
+2026-01-31 09:05:38,843 - anilibria_service - INFO - ✅ Using custom image for genre 'Супер сила': superpower.webp
+2026-01-31 09:05:38,843 - anilibria_service - INFO - ✅ Using custom image for genre 'Триллер': thriller.webp
+2026-01-31 09:05:38,843 - anilibria_service - INFO - ✅ Using custom image for genre 'Ужасы': horror.webp
+2026-01-31 09:05:38,843 - anilibria_service - INFO - ✅ Using custom image for genre 'Фантастика': sci-fi.webp
+2026-01-31 09:05:38,843 - anilibria_service - INFO - ✅ Using custom image for genre 'Фэнтези': fantasy.webp
+2026-01-31 09:05:38,843 - anilibria_service - INFO - ✅ Using custom image for genre 'Школа': school.webp
+2026-01-31 09:05:38,843 - anilibria_service - INFO - ✅ Using custom image for genre 'Экшен': action.webp
+2026-01-31 09:05:38,843 - anilibria_service - INFO - ✅ Using custom image for genre 'Этти': ecchi.webp
+INFO:     127.0.0.1:52878 - "GET /api/anilibria/genres HTTP/1.1" 200 OK
+2026-01-31 09:05:38,950 - anilibria_service - INFO - ✅ AniLibria API success: 254 item(s)
+INFO:     127.0.0.1:52880 - "GET /api/anilibria/franchises?limit=12&offset=0 HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'kodik_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8901]
+2026-01-31 09:06:14,270 - server - INFO - ✅ MongoDB connected
+2026-01-31 09:06:14,271 - server - INFO - ✅ Mounted genre images directory: /Users/burkhanoff/Desktop/ani/anilibria/public/genre-images
+INFO:     Started server process [11988]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'anilibria_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11988]
+2026-01-31 09:06:35,456 - server - INFO - ✅ MongoDB connected
+2026-01-31 09:06:35,457 - server - INFO - ✅ Mounted genre images directory: /Users/burkhanoff/Desktop/ani/anilibria/public/genre-images
+INFO:     Started server process [11996]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2026-01-31 09:07:37,824 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/franchises with params: {'limit': 12, 'offset': 0}
+2026-01-31 09:07:38,685 - anilibria_service - INFO - ✅ AniLibria API success: 254 item(s)
+INFO:     127.0.0.1:52999 - "GET /api/anilibria/franchises?limit=12 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53007 - "HEAD /api/anilibria/franchises HTTP/1.1" 405 Method Not Allowed
+2026-01-31 09:09:11,180 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 12, 'offset': 0}
+2026-01-31 09:09:11,181 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/franchises with params: {'limit': 12, 'offset': 0}
+2026-01-31 09:09:11,184 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/torrents with params: {'limit': 8, 'offset': 0}
+2026-01-31 09:09:11,673 - anilibria_service - INFO - ✅ AniLibria API success: single item(s)
+INFO:     127.0.0.1:53125 - "GET /api/anilibria/torrents?limit=8&offset=0 HTTP/1.1" 200 OK
+2026-01-31 09:09:11,681 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/torrents with params: {'limit': 8, 'offset': 0}
+2026-01-31 09:09:11,700 - anilibria_service - INFO - ✅ AniLibria API success: 12 item(s)
+INFO:     127.0.0.1:53120 - "GET /api/anilibria/releases/latest?limit=12&offset=0 HTTP/1.1" 200 OK
+2026-01-31 09:09:11,710 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 12, 'offset': 0}
+2026-01-31 09:09:11,752 - anilibria_service - INFO - ✅ AniLibria API success: 254 item(s)
+INFO:     127.0.0.1:53121 - "GET /api/anilibria/franchises?limit=12&offset=0 HTTP/1.1" 200 OK
+2026-01-31 09:09:11,779 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/franchises with params: {'limit': 12, 'offset': 0}
+2026-01-31 09:09:11,781 - anilibria_service - INFO - ✅ AniLibria API success: single item(s)
+INFO:     127.0.0.1:53125 - "GET /api/anilibria/torrents?limit=8&offset=0 HTTP/1.1" 200 OK
+2026-01-31 09:09:11,797 - anilibria_service - INFO - ✅ Using custom image for genre 'Боевые искусства': martial-arts.webp
+2026-01-31 09:09:11,798 - anilibria_service - INFO - ✅ Using custom image for genre 'Вампиры': vampires.webp
+2026-01-31 09:09:11,798 - anilibria_service - INFO - ✅ Using custom image for genre 'Гарем': harem.webp
+2026-01-31 09:09:11,798 - anilibria_service - INFO - ✅ Using custom image for genre 'Демоны': demons.webp
+2026-01-31 09:09:11,798 - anilibria_service - INFO - ✅ Using custom image for genre 'Детектив': detective.webp
+2026-01-31 09:09:11,798 - anilibria_service - INFO - ✅ Using custom image for genre 'Дзёсей': josei.webp
+2026-01-31 09:09:11,799 - anilibria_service - INFO - ✅ Using custom image for genre 'Драма': drama.webp
+2026-01-31 09:09:11,799 - anilibria_service - INFO - ✅ Using custom image for genre 'Игры': games.webp
+2026-01-31 09:09:11,799 - anilibria_service - INFO - ✅ Using custom image for genre 'Исекай': isekai.webp
+2026-01-31 09:09:11,799 - anilibria_service - INFO - ✅ Using custom image for genre 'Исторический': historical.webp
+2026-01-31 09:09:11,799 - anilibria_service - INFO - ✅ Using custom image for genre 'Киберпанк': cyberpunk.webp
+2026-01-31 09:09:11,799 - anilibria_service - INFO - ✅ Using custom image for genre 'Комедия': comedy.webp
+2026-01-31 09:09:11,799 - anilibria_service - INFO - ✅ Using custom image for genre 'Магия': magic.webp
+2026-01-31 09:09:11,799 - anilibria_service - INFO - ✅ Using custom image for genre 'Меха': mecha.webp
+2026-01-31 09:09:11,799 - anilibria_service - INFO - ✅ Using custom image for genre 'Мистика': mystery.webp
+2026-01-31 09:09:11,800 - anilibria_service - INFO - ✅ Using custom image for genre 'Музыка': music.webp
+2026-01-31 09:09:11,800 - anilibria_service - INFO - ✅ Using custom image for genre 'Пародия': parody.webp
+2026-01-31 09:09:11,800 - anilibria_service - INFO - ✅ Using custom image for genre 'Повседневность': slice-of-life.webp
+2026-01-31 09:09:11,800 - anilibria_service - INFO - ✅ Using custom image for genre 'Приключения': adventure.webp
+2026-01-31 09:09:11,800 - anilibria_service - INFO - ✅ Using custom image for genre 'Психологическое': psychological.webp
+2026-01-31 09:09:11,801 - anilibria_service - INFO - ✅ Using custom image for genre 'Романтика': romance.webp
+2026-01-31 09:09:11,801 - anilibria_service - INFO - ✅ Using custom image for genre 'Сверхъестественное': supernatural.webp
+2026-01-31 09:09:11,801 - anilibria_service - INFO - ✅ Using custom image for genre 'Сёдзе': shoujo.webp
+2026-01-31 09:09:11,801 - anilibria_service - INFO - ✅ Using custom image for genre 'Сёдзе-ай': shoujo-ai.webp
+2026-01-31 09:09:11,801 - anilibria_service - INFO - ✅ Using custom image for genre 'Сейнен': seinen.webp
+2026-01-31 09:09:11,801 - anilibria_service - INFO - ✅ Using custom image for genre 'Сёнен': shonen.webp
+2026-01-31 09:09:11,802 - anilibria_service - INFO - ✅ Using custom image for genre 'Спорт': sports.webp
+2026-01-31 09:09:11,802 - anilibria_service - INFO - ✅ Using custom image for genre 'Супер сила': superpower.webp
+2026-01-31 09:09:11,802 - anilibria_service - INFO - ✅ Using custom image for genre 'Триллер': thriller.webp
+2026-01-31 09:09:11,802 - anilibria_service - INFO - ✅ Using custom image for genre 'Ужасы': horror.webp
+2026-01-31 09:09:11,802 - anilibria_service - INFO - ✅ Using custom image for genre 'Фантастика': sci-fi.webp
+2026-01-31 09:09:11,802 - anilibria_service - INFO - ✅ Using custom image for genre 'Фэнтези': fantasy.webp
+2026-01-31 09:09:11,802 - anilibria_service - INFO - ✅ Using custom image for genre 'Школа': school.webp
+2026-01-31 09:09:11,802 - anilibria_service - INFO - ✅ Using custom image for genre 'Экшен': action.webp
+2026-01-31 09:09:11,802 - anilibria_service - INFO - ✅ Using custom image for genre 'Этти': ecchi.webp
+INFO:     127.0.0.1:53124 - "GET /api/anilibria/genres HTTP/1.1" 200 OK
+2026-01-31 09:09:11,835 - anilibria_service - INFO - ✅ AniLibria API success: 12 item(s)
+INFO:     127.0.0.1:53120 - "GET /api/anilibria/releases/latest?limit=12&offset=0 HTTP/1.1" 200 OK
+2026-01-31 09:09:11,927 - anilibria_service - INFO - ✅ AniLibria API success: 254 item(s)
+INFO:     127.0.0.1:53144 - "GET /api/anilibria/franchises?limit=12&offset=0 HTTP/1.1" 200 OK
+2026-01-31 09:09:12,038 - anilibria_service - INFO - ✅ Using custom image for genre 'Боевые искусства': martial-arts.webp
+2026-01-31 09:09:12,039 - anilibria_service - INFO - ✅ Using custom image for genre 'Вампиры': vampires.webp
+2026-01-31 09:09:12,039 - anilibria_service - INFO - ✅ Using custom image for genre 'Гарем': harem.webp
+2026-01-31 09:09:12,039 - anilibria_service - INFO - ✅ Using custom image for genre 'Демоны': demons.webp
+2026-01-31 09:09:12,039 - anilibria_service - INFO - ✅ Using custom image for genre 'Детектив': detective.webp
+2026-01-31 09:09:12,039 - anilibria_service - INFO - ✅ Using custom image for genre 'Дзёсей': josei.webp
+2026-01-31 09:09:12,039 - anilibria_service - INFO - ✅ Using custom image for genre 'Драма': drama.webp
+2026-01-31 09:09:12,039 - anilibria_service - INFO - ✅ Using custom image for genre 'Игры': games.webp
+2026-01-31 09:09:12,040 - anilibria_service - INFO - ✅ Using custom image for genre 'Исекай': isekai.webp
+2026-01-31 09:09:12,040 - anilibria_service - INFO - ✅ Using custom image for genre 'Исторический': historical.webp
+2026-01-31 09:09:12,040 - anilibria_service - INFO - ✅ Using custom image for genre 'Киберпанк': cyberpunk.webp
+2026-01-31 09:09:12,040 - anilibria_service - INFO - ✅ Using custom image for genre 'Комедия': comedy.webp
+2026-01-31 09:09:12,040 - anilibria_service - INFO - ✅ Using custom image for genre 'Магия': magic.webp
+2026-01-31 09:09:12,040 - anilibria_service - INFO - ✅ Using custom image for genre 'Меха': mecha.webp
+2026-01-31 09:09:12,041 - anilibria_service - INFO - ✅ Using custom image for genre 'Мистика': mystery.webp
+2026-01-31 09:09:12,041 - anilibria_service - INFO - ✅ Using custom image for genre 'Музыка': music.webp
+2026-01-31 09:09:12,041 - anilibria_service - INFO - ✅ Using custom image for genre 'Пародия': parody.webp
+2026-01-31 09:09:12,041 - anilibria_service - INFO - ✅ Using custom image for genre 'Повседневность': slice-of-life.webp
+2026-01-31 09:09:12,041 - anilibria_service - INFO - ✅ Using custom image for genre 'Приключения': adventure.webp
+2026-01-31 09:09:12,041 - anilibria_service - INFO - ✅ Using custom image for genre 'Психологическое': psychological.webp
+2026-01-31 09:09:12,042 - anilibria_service - INFO - ✅ Using custom image for genre 'Романтика': romance.webp
+2026-01-31 09:09:12,042 - anilibria_service - INFO - ✅ Using custom image for genre 'Сверхъестественное': supernatural.webp
+2026-01-31 09:09:12,042 - anilibria_service - INFO - ✅ Using custom image for genre 'Сёдзе': shoujo.webp
+2026-01-31 09:09:12,042 - anilibria_service - INFO - ✅ Using custom image for genre 'Сёдзе-ай': shoujo-ai.webp
+2026-01-31 09:09:12,042 - anilibria_service - INFO - ✅ Using custom image for genre 'Сейнен': seinen.webp
+2026-01-31 09:09:12,042 - anilibria_service - INFO - ✅ Using custom image for genre 'Сёнен': shonen.webp
+2026-01-31 09:09:12,042 - anilibria_service - INFO - ✅ Using custom image for genre 'Спорт': sports.webp
+2026-01-31 09:09:12,042 - anilibria_service - INFO - ✅ Using custom image for genre 'Супер сила': superpower.webp
+2026-01-31 09:09:12,042 - anilibria_service - INFO - ✅ Using custom image for genre 'Триллер': thriller.webp
+2026-01-31 09:09:12,042 - anilibria_service - INFO - ✅ Using custom image for genre 'Ужасы': horror.webp
+2026-01-31 09:09:12,043 - anilibria_service - INFO - ✅ Using custom image for genre 'Фантастика': sci-fi.webp
+2026-01-31 09:09:12,043 - anilibria_service - INFO - ✅ Using custom image for genre 'Фэнтези': fantasy.webp
+2026-01-31 09:09:12,043 - anilibria_service - INFO - ✅ Using custom image for genre 'Школа': school.webp
+2026-01-31 09:09:12,043 - anilibria_service - INFO - ✅ Using custom image for genre 'Экшен': action.webp
+2026-01-31 09:09:12,043 - anilibria_service - INFO - ✅ Using custom image for genre 'Этти': ecchi.webp
+INFO:     127.0.0.1:53124 - "GET /api/anilibria/genres HTTP/1.1" 200 OK
+2026-01-31 09:15:07,768 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 12, 'offset': 0}
+2026-01-31 09:15:07,770 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/franchises with params: {'limit': 12, 'offset': 0}
+2026-01-31 09:15:07,773 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/torrents with params: {'limit': 8, 'offset': 0}
+2026-01-31 09:15:08,347 - anilibria_service - INFO - ✅ AniLibria API success: single item(s)
+INFO:     127.0.0.1:53435 - "GET /api/anilibria/torrents?limit=8&offset=0 HTTP/1.1" 200 OK
+2026-01-31 09:15:08,369 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/torrents with params: {'limit': 8, 'offset': 0}
+2026-01-31 09:15:08,441 - anilibria_service - INFO - ✅ Using custom image for genre 'Боевые искусства': martial-arts.webp
+2026-01-31 09:15:08,442 - anilibria_service - INFO - ✅ Using custom image for genre 'Вампиры': vampires.webp
+2026-01-31 09:15:08,442 - anilibria_service - INFO - ✅ Using custom image for genre 'Гарем': harem.webp
+2026-01-31 09:15:08,442 - anilibria_service - INFO - ✅ Using custom image for genre 'Демоны': demons.webp
+2026-01-31 09:15:08,443 - anilibria_service - INFO - ✅ Using custom image for genre 'Детектив': detective.webp
+2026-01-31 09:15:08,443 - anilibria_service - INFO - ✅ Using custom image for genre 'Дзёсей': josei.webp
+2026-01-31 09:15:08,443 - anilibria_service - INFO - ✅ Using custom image for genre 'Драма': drama.webp
+2026-01-31 09:15:08,443 - anilibria_service - INFO - ✅ Using custom image for genre 'Игры': games.webp
+2026-01-31 09:15:08,443 - anilibria_service - INFO - ✅ Using custom image for genre 'Исекай': isekai.webp
+2026-01-31 09:15:08,444 - anilibria_service - INFO - ✅ Using custom image for genre 'Исторический': historical.webp
+2026-01-31 09:15:08,444 - anilibria_service - INFO - ✅ Using custom image for genre 'Киберпанк': cyberpunk.webp
+2026-01-31 09:15:08,444 - anilibria_service - INFO - ✅ Using custom image for genre 'Комедия': comedy.webp
+2026-01-31 09:15:08,444 - anilibria_service - INFO - ✅ Using custom image for genre 'Магия': magic.webp
+2026-01-31 09:15:08,445 - anilibria_service - INFO - ✅ Using custom image for genre 'Меха': mecha.webp
+2026-01-31 09:15:08,445 - anilibria_service - INFO - ✅ Using custom image for genre 'Мистика': mystery.webp
+2026-01-31 09:15:08,445 - anilibria_service - INFO - ✅ Using custom image for genre 'Музыка': music.webp
+2026-01-31 09:15:08,446 - anilibria_service - INFO - ✅ Using custom image for genre 'Пародия': parody.webp
+2026-01-31 09:15:08,446 - anilibria_service - INFO - ✅ Using custom image for genre 'Повседневность': slice-of-life.webp
+2026-01-31 09:15:08,446 - anilibria_service - INFO - ✅ Using custom image for genre 'Приключения': adventure.webp
+2026-01-31 09:15:08,446 - anilibria_service - INFO - ✅ Using custom image for genre 'Психологическое': psychological.webp
+2026-01-31 09:15:08,446 - anilibria_service - INFO - ✅ Using custom image for genre 'Романтика': romance.webp
+2026-01-31 09:15:08,447 - anilibria_service - INFO - ✅ Using custom image for genre 'Сверхъестественное': supernatural.webp
+2026-01-31 09:15:08,447 - anilibria_service - INFO - ✅ Using custom image for genre 'Сёдзе': shoujo.webp
+2026-01-31 09:15:08,447 - anilibria_service - INFO - ✅ Using custom image for genre 'Сёдзе-ай': shoujo-ai.webp
+2026-01-31 09:15:08,447 - anilibria_service - INFO - ✅ Using custom image for genre 'Сейнен': seinen.webp
+2026-01-31 09:15:08,447 - anilibria_service - INFO - ✅ Using custom image for genre 'Сёнен': shonen.webp
+2026-01-31 09:15:08,447 - anilibria_service - INFO - ✅ Using custom image for genre 'Спорт': sports.webp
+2026-01-31 09:15:08,448 - anilibria_service - INFO - ✅ Using custom image for genre 'Супер сила': superpower.webp
+2026-01-31 09:15:08,448 - anilibria_service - INFO - ✅ Using custom image for genre 'Триллер': thriller.webp
+2026-01-31 09:15:08,448 - anilibria_service - INFO - ✅ Using custom image for genre 'Ужасы': horror.webp
+2026-01-31 09:15:08,448 - anilibria_service - INFO - ✅ Using custom image for genre 'Фантастика': sci-fi.webp
+2026-01-31 09:15:08,449 - anilibria_service - INFO - ✅ Using custom image for genre 'Фэнтези': fantasy.webp
+2026-01-31 09:15:08,449 - anilibria_service - INFO - ✅ Using custom image for genre 'Школа': school.webp
+2026-01-31 09:15:08,449 - anilibria_service - INFO - ✅ Using custom image for genre 'Экшен': action.webp
+2026-01-31 09:15:08,449 - anilibria_service - INFO - ✅ Using custom image for genre 'Этти': ecchi.webp
+INFO:     127.0.0.1:53433 - "GET /api/anilibria/genres HTTP/1.1" 200 OK
+2026-01-31 09:15:08,463 - anilibria_service - INFO - ✅ AniLibria API success: 12 item(s)
+INFO:     127.0.0.1:53429 - "GET /api/anilibria/releases/latest?limit=12&offset=0 HTTP/1.1" 200 OK
+2026-01-31 09:15:08,479 - anilibria_service - INFO - ✅ AniLibria API success: single item(s)
+INFO:     127.0.0.1:53461 - "GET /api/anilibria/torrents?limit=8&offset=0 HTTP/1.1" 200 OK
+2026-01-31 09:15:08,486 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/releases/latest with params: {'limit': 12, 'offset': 0}
+2026-01-31 09:15:08,497 - anilibria_service - INFO - ✅ AniLibria API success: 254 item(s)
+INFO:     127.0.0.1:53431 - "GET /api/anilibria/franchises?limit=12&offset=0 HTTP/1.1" 200 OK
+2026-01-31 09:15:08,534 - anilibria_service - INFO - 🔄 Making request to AniLibria: https://api.anilibria.app/api/v1/anime/franchises with params: {'limit': 12, 'offset': 0}
+2026-01-31 09:15:08,611 - anilibria_service - INFO - ✅ AniLibria API success: 12 item(s)
+INFO:     127.0.0.1:53433 - "GET /api/anilibria/releases/latest?limit=12&offset=0 HTTP/1.1" 200 OK
+2026-01-31 09:15:08,674 - anilibria_service - INFO - ✅ Using custom image for genre 'Боевые искусства': martial-arts.webp
+2026-01-31 09:15:08,675 - anilibria_service - INFO - ✅ Using custom image for genre 'Вампиры': vampires.webp
+2026-01-31 09:15:08,675 - anilibria_service - INFO - ✅ Using custom image for genre 'Гарем': harem.webp
+2026-01-31 09:15:08,676 - anilibria_service - INFO - ✅ Using custom image for genre 'Демоны': demons.webp
+2026-01-31 09:15:08,676 - anilibria_service - INFO - ✅ Using custom image for genre 'Детектив': detective.webp
+2026-01-31 09:15:08,676 - anilibria_service - INFO - ✅ Using custom image for genre 'Дзёсей': josei.webp
+2026-01-31 09:15:08,676 - anilibria_service - INFO - ✅ Using custom image for genre 'Драма': drama.webp
+2026-01-31 09:15:08,676 - anilibria_service - INFO - ✅ Using custom image for genre 'Игры': games.webp
+2026-01-31 09:15:08,676 - anilibria_service - INFO - ✅ Using custom image for genre 'Исекай': isekai.webp
+2026-01-31 09:15:08,677 - anilibria_service - INFO - ✅ Using custom image for genre 'Исторический': historical.webp
+2026-01-31 09:15:08,677 - anilibria_service - INFO - ✅ Using custom image for genre 'Киберпанк': cyberpunk.webp
+2026-01-31 09:15:08,677 - anilibria_service - INFO - ✅ Using custom image for genre 'Комедия': comedy.webp
+2026-01-31 09:15:08,677 - anilibria_service - INFO - ✅ Using custom image for genre 'Магия': magic.webp
+2026-01-31 09:15:08,677 - anilibria_service - INFO - ✅ Using custom image for genre 'Меха': mecha.webp
+2026-01-31 09:15:08,677 - anilibria_service - INFO - ✅ Using custom image for genre 'Мистика': mystery.webp
+2026-01-31 09:15:08,677 - anilibria_service - INFO - ✅ Using custom image for genre 'Музыка': music.webp
+2026-01-31 09:15:08,677 - anilibria_service - INFO - ✅ Using custom image for genre 'Пародия': parody.webp
+2026-01-31 09:15:08,677 - anilibria_service - INFO - ✅ Using custom image for genre 'Повседневность': slice-of-life.webp
+2026-01-31 09:15:08,677 - anilibria_service - INFO - ✅ Using custom image for genre 'Приключения': adventure.webp
+2026-01-31 09:15:08,678 - anilibria_service - INFO - ✅ Using custom image for genre 'Психологическое': psychological.webp
+2026-01-31 09:15:08,678 - anilibria_service - INFO - ✅ Using custom image for genre 'Романтика': romance.webp
+2026-01-31 09:15:08,678 - anilibria_service - INFO - ✅ Using custom image for genre 'Сверхъестественное': supernatural.webp
+2026-01-31 09:15:08,678 - anilibria_service - INFO - ✅ Using custom image for genre 'Сёдзе': shoujo.webp
+2026-01-31 09:15:08,678 - anilibria_service - INFO - ✅ Using custom image for genre 'Сёдзе-ай': shoujo-ai.webp
+2026-01-31 09:15:08,678 - anilibria_service - INFO - ✅ Using custom image for genre 'Сейнен': seinen.webp
+2026-01-31 09:15:08,678 - anilibria_service - INFO - ✅ Using custom image for genre 'Сёнен': shonen.webp
+2026-01-31 09:15:08,679 - anilibria_service - INFO - ✅ Using custom image for genre 'Спорт': sports.webp
+2026-01-31 09:15:08,679 - anilibria_service - INFO - ✅ Using custom image for genre 'Супер сила': superpower.webp
+2026-01-31 09:15:08,679 - anilibria_service - INFO - ✅ Using custom image for genre 'Триллер': thriller.webp
+2026-01-31 09:15:08,679 - anilibria_service - INFO - ✅ Using custom image for genre 'Ужасы': horror.webp
+2026-01-31 09:15:08,679 - anilibria_service - INFO - ✅ Using custom image for genre 'Фантастика': sci-fi.webp
+2026-01-31 09:15:08,679 - anilibria_service - INFO - ✅ Using custom image for genre 'Фэнтези': fantasy.webp
+2026-01-31 09:15:08,679 - anilibria_service - INFO - ✅ Using custom image for genre 'Школа': school.webp
+2026-01-31 09:15:08,680 - anilibria_service - INFO - ✅ Using custom image for genre 'Экшен': action.webp
+2026-01-31 09:15:08,680 - anilibria_service - INFO - ✅ Using custom image for genre 'Этти': ecchi.webp
+INFO:     127.0.0.1:53435 - "GET /api/anilibria/genres HTTP/1.1" 200 OK
+2026-01-31 09:15:08,737 - anilibria_service - INFO - ✅ AniLibria API success: 254 item(s)
+INFO:     127.0.0.1:53461 - "GET /api/anilibria/franchises?limit=12&offset=0 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53484 - "GET /genre-images/martial-arts.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53487 - "GET /genre-images/vampires.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53493 - "GET /genre-images/detective.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53494 - "GET /genre-images/josei.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53490 - "GET /genre-images/demons.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53488 - "GET /genre-images/harem.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53488 - "GET /genre-images/drama.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53490 - "GET /genre-images/games.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53494 - "GET /genre-images/historical.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53488 - "GET /genre-images/isekai.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53493 - "GET /genre-images/cyberpunk.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53487 - "GET /genre-images/comedy.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53490 - "GET /genre-images/magic.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53490 - "GET /genre-images/mecha.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53487 - "GET /genre-images/mystery.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53493 - "GET /genre-images/music.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53493 - "GET /genre-images/parody.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53487 - "GET /genre-images/slice-of-life.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53487 - "GET /genre-images/adventure.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53490 - "GET /genre-images/romance.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53493 - "GET /genre-images/psychological.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53487 - "GET /genre-images/supernatural.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53488 - "GET /genre-images/shoujo.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53490 - "GET /genre-images/shoujo-ai.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53487 - "GET /genre-images/seinen.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53490 - "GET /genre-images/shonen.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53487 - "GET /genre-images/sports.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53487 - "GET /genre-images/superpower.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53490 - "GET /genre-images/thriller.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53488 - "GET /genre-images/sci-fi.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53487 - "GET /genre-images/horror.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53490 - "GET /genre-images/fantasy.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53490 - "GET /genre-images/school.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53490 - "GET /genre-images/action.webp HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53487 - "GET /genre-images/ecchi.webp HTTP/1.1" 304 Not Modified

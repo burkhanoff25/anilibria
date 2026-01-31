@@ -1,0 +1,124 @@
+"""
+Genre name to filename mapping for custom genre images
+"""
+
+# Mapping from Russian genre names to image filenames
+GENRE_IMAGE_MAP = {
+    "Боевые искусства": "martial-arts",
+    "Вампиры": "vampires",
+    "Гарем": "harem",
+    "Демоны": "demons",
+    "Детектив": "detective",
+    "Дзёсей": "josei",
+    "Драма": "drama",
+    "Игры": "games",
+    "Исекай": "isekai",
+    "Исторический": "historical",
+    "Киберпанк": "cyberpunk",
+    "Комедия": "comedy",
+    "Магия": "magic",
+    "Меха": "mecha",
+    "Мистика": "mystery",
+    "Музыка": "music",
+    "Пародия": "parody",
+    "Повседневность": "slice-of-life",
+    "Приключения": "adventure",
+    "Психологическое": "psychological",
+    "Романтика": "romance",
+    "Сверхъестественное": "supernatural",
+    "Сёдзе": "shoujo",
+    "Сёдзе-ай": "shoujo-ai",
+    "Сейнен": "seinen",
+    "Сёнен": "shonen",
+    "Спорт": "sports",
+    "Супер сила": "superpower",
+    "Триллер": "thriller",
+    "Ужасы": "horror",
+    "Фантастика": "sci-fi",
+    "Фэнтези": "fantasy",
+    "Школа": "school",
+    "Экшен": "action",
+    "Этти": "ecchi",
+}
+
+# Alternative genre name variations
+GENRE_ALIASES = {
+    "Боевые Искусства": "martial-arts",
+    "боевые искусства": "martial-arts",
+    "Вампир": "vampires",
+    "вампиры": "vampires",
+    "Детективы": "detective",
+    "детектив": "detective",
+    "Dзёсей": "josei",
+    "джосей": "josei",
+    "драма": "drama",
+    "игра": "games",
+    "игры": "games",
+    "исекай": "isekai",
+    "исторический": "historical",
+    "История": "historical",
+    "киберпанк": "cyberpunk",
+    "комедия": "comedy",
+    "Магическая": "magic",
+    "магия": "magic",
+    "меха": "mecha",
+    "мистика": "mystery",
+    "музыка": "music",
+    "пародия": "parody",
+    "повседневность": "slice-of-life",
+    "Slice of Life": "slice-of-life",
+    "приключения": "adventure",
+    "психологическое": "psychological",
+    "Психология": "psychological",
+    "романтика": "romance",
+    "Romance": "romance",
+    "сверхъестественное": "supernatural",
+    "сёдзе": "shoujo",
+    "Shoujo": "shoujo",
+    "сёдзе-ай": "shoujo-ai",
+    "Shoujo-ai": "shoujo-ai",
+    "Yuri": "shoujo-ai",
+    "сейнен": "seinen",
+    "Seinen": "seinen",
+    "сёнен": "shonen",
+    "Shonen": "shonen",
+    "Shounen": "shonen",
+    "спорт": "sports",
+    "Sports": "sports",
+    "супер сила": "superpower",
+    "Суперсила": "superpower",
+    "триллер": "thriller",
+    "ужасы": "horror",
+    "Horror": "horror",
+    "фантастика": "sci-fi",
+    "Sci-Fi": "sci-fi",
+    "фэнтези": "fantasy",
+    "Fantasy": "fantasy",
+    "школа": "school",
+    "School": "school",
+    "экшен": "action",
+    "Action": "action",
+    "этти": "ecchi",
+    "Ecchi": "ecchi",
+}
+
+def get_genre_image_filename(genre_name: str) -> str:
+    """
+    Get the image filename for a genre name
+    
+    Args:
+        genre_name: Genre name in Russian or English
+        
+    Returns:
+        Image filename without extension (e.g., "martial-arts")
+    """
+    # Try exact match first
+    if genre_name in GENRE_IMAGE_MAP:
+        return GENRE_IMAGE_MAP[genre_name]
+    
+    # Try aliases
+    if genre_name in GENRE_ALIASES:
+        return GENRE_ALIASES[genre_name]
+    
+    # Return lowercase slugified version as fallback
+    return genre_name.lower().replace(" ", "-").replace("ё", "e")
